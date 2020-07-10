@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<style>
+form {
+  text-align: center;
+  margin: auto;
+}
+input {
+  width: 400px;
+  height: 24px;
+  margin: 1px;
+}
+.but{
+  height: 30px;
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+  input{
+  width: 90%;
+    height: 24px;
+    margin: 1px;
+    padding: 2px;
+  }
+  .but{
+    height: 30px;
+  }
+}
+</style>
+</head>
+<body>
+<form action="/" method="post">
+<input type="text" name="login"> <br>
+<input type="text" name="password"> <br>
+<input class= "but" type="submit" value="Send"> <br>
+</form>
+</body>
+</html>
